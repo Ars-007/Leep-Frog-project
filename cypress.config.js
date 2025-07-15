@@ -5,8 +5,8 @@ module.exports = defineConfig({
     baseUrl: 'https://leepfrog.com',
     viewportWidth: 1400,
     viewportHeight: 1200,
+    supportFile: 'cypress/support/e2e.js',
     setupNodeEvents(on, config) {
-      // implement node event listeners here
     },
   },
 });
