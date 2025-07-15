@@ -1,0 +1,22 @@
+{
+  "name": "project-lp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10",
+    "cypress": "^14.5.2",
+    "cypress-xpath": "^2.0.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
+}
